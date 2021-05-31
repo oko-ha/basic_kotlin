@@ -10,7 +10,6 @@ class ActivateImageActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_activate_image)
         binding = ActivityActivateImageBinding.inflate(layoutInflater)
         setContentView(binding.root)
     }

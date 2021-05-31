@@ -28,7 +28,6 @@ class FilteringColorActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_filtering_color)
         binding = ActivityFilteringColorBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
