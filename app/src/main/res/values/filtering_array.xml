@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="filter" >
+        <item>Select Filter</item>
+        <item>ADD</item>
+        <item>CLEAR</item>
+        <item>DARKEN</item>
+        <item>DST</item>
+        <item>DST_ATOP</item>
+        <item>DST_IN</item>
+        <item>DST_OUT</item>
+        <item>DST_OVER</item>
+        <item>LIGHTEN</item>
+        <item>MULTIPLY</item>
+        <item>OVERLAY</item>
+        <item>SCREEN</item>
+        <item>SRC</item>
+        <item>SRC_ATOP</item>
+        <item>SRC_IN</item>
+        <item>SRC_OUT</item>
+        <item>SRC_OVER</item>
+        <item>XOR</item>
+    </string-array>
+</resources>
