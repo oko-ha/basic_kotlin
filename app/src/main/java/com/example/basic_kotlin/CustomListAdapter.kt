@@ -7,9 +7,9 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import com.example.basic_kotlin.databinding.CustomListBinding
 
-class Data(val profile: Int, val name: String)
+class Data1(val profile: Int, val name: String)
 
-class CustomAdapter (private val context: Context, private val dataList: ArrayList<Data>): BaseAdapter() {
+class CustomAdapter (private val context: Context, private val dataList: ArrayList<Data1>): BaseAdapter() {
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
         val binding = CustomListBinding.inflate(LayoutInflater.from(context), parent, false)
         val profile = binding.ivCustom
