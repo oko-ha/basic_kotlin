@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         binding.btn1.setOnClickListener(ButtonListener())
         binding.btn2.setOnClickListener(ButtonListener())
         binding.btn3.setOnClickListener(ButtonListener())
+        binding.btn4.setOnClickListener(ButtonListener())
     }
 
     inner class ButtonListener: View.OnClickListener {
@@ -25,6 +26,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.btn1 -> myStartActivity(FilteringColorActivity::class.java)
                 R.id.btn2 -> myStartActivity(ActivateImageActivity::class.java)
                 R.id.btn3 -> myStartActivity(ScrollViewActivity::class.java)
+                R.id.btn4 -> myStartActivity(CustomListViewActivity::class.java)
             }
         }
     }
