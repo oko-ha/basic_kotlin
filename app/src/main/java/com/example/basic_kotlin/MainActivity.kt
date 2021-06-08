@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.btn3 -> myStartActivity(ScrollViewActivity::class.java)
                 R.id.btn4 -> myStartActivity(CustomListViewActivity::class.java)
                 R.id.btn5 -> myStartActivity(CustomRecyclerViewActivity::class.java)
-                R.id.btn6 -> myStartActivity(BottomNavigationViewActivity::class.java)
+                R.id.btn6 -> myStartActivity(SwipeViewActivity::class.java)
             }
         }
     }
